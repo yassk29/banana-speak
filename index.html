@@ -6,35 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana speak</title>
-    <style>
-        textarea {
-            display: block;
-            width: 500px;
-            height: 100px;
-            padding: 1rem;
-            margin: 1rem;
-        }
-
-        #output {
-            border: 1px solid;
-            width: 500px;
-            height: 100px;
-            padding: 1rem;
-            margin: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+    <nav>
+        <div id="heading">Talk Banana</div>
+    </nav>
 
-    <h1>Talk Bananaa</h1>
-    <textarea placeholder="Put your sentence in english here and we will convert it to banana." id="txt-input"></textarea>
-    <button id="btn-translate">translate</button>
+    <main>
+        <div id="input-text">Enter Your text here</div>
+        <textarea placeholder="Put your sentence in english here and we will convert it to banana."
+            id="txt-input"></textarea>
 
-    <div style="font-size: larger;">Output will come here 👇</div>
-    <div id="output"></div>
-     
+        <button id="btn-translate">Translate to minion language</button>
+
+        <div id="output-text">Output will come here 👇</div>
+        <div id="output"></div>
+        
+    </main>
+
+    <div class="background" id="background1"></div>
+    <div class="background" id="background2"></div>
+
+    <footer>
+        <div>About</div>
+        <p>Minionese, the language of the Minions, is not a real-world language—rather it is a borrowed one from existing languages that have been mashed up together to create the gibberish that these cute, lovable creatures speak.</p>
+    </footer>
+
     <script src="app.js" type="text/javascript"></script>
 </body>
 

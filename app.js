@@ -1,15 +1,10 @@
-var btnTranslate = document.querySelector("#btn-translate")
-var txtInput = document.querySelector("#txt-input")
-var outputDiv = document.querySelector("#output")
-// outputDiv.innerText = "there are yassk available";
-
-// console.log(outputDiv)
+var btnTranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txt-input");
+var outputDiv = document.querySelector("#output");
 
 function clickHandler() {
-    outputDiv.innerText = "bayabaya " + txtInput.value;
-    // console.log("Clicked!");
-    // console.log("Input", txtInput.value)
+    outputDiv.innerText = "hahaha " + txtInput.value;
 };
 
+btnTranslate.addEventListener("click",clickHandler);
 
-btnTranslate.addEventListener("click", clickHandler)
