@@ -24,7 +24,7 @@ body {
     position: absolute;
     top: 0;
     width: 100%;
-    /* z-index: -1; */
+    z-index: -1;
 }
 
 #background1{
@@ -70,6 +70,7 @@ textarea {
     width: 500px;
     height: 100px;
     margin: 1rem 0rem 2rem 0rem;
+    font-size: 20px;
 }
 
 #output-text, #input-text {
@@ -82,11 +83,16 @@ textarea {
     width: 500px;
     height: 100px;
     margin: 1rem 0rem 1rem 0rem;
+    font-size: 35px;
+}
+
+footer>div {
+    font-size: 40px;
 }
 
 footer {
     background-color: var(--primary-color);
-    font-size: 20px;
+    font-size: 25px;
     position: fixed;
     width: 100%;
     text-align: center;
